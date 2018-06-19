@@ -3,7 +3,7 @@
 
 your_favorite_word = "supercalifragilisticexpialidocious"
 
-puts "My favorite word is#{your_favorite_word}"
+puts "My favorite word is #{your_favorite_word}"
 
 # Challenge 2: Capitalize every letter in your_favorite_word using a built in Ruby method
 
@@ -48,4 +48,4 @@ sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples 
 
 sentence = sentence # Add your gsub chain here
 
-puts sentence.gsub("a", "o").gsub("A", "O")
+puts sentence.gsub("A", "O").gsub("a", "o")
